@@ -34,7 +34,7 @@ Instantiate(woodModel,spawnWood.transform.position,transform.rotation);
 		void Attack()
 	{
 	    GetComponent<AudioSource> ().PlayOneShot (cutSound);
-        treeHealthCurrent -= 20;
+        treeHealthCurrent -= 50;
 	}
 
 	// Update is called once per frame
